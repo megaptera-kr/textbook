@@ -207,7 +207,7 @@ npm i -D parcel
 ### React Testing Library 설치
 
 ```shell
-npm i -D @testing-library/react jest-environment-jsdom
+npm i -D @testing-library/react @testing-library/jest-dom jest-environment-jsdom
 ```
 
 ### Jest 설정 변경
