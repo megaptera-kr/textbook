@@ -228,11 +228,11 @@ npm i -D msw
 
 ### MSW 관련 파일 생성
 
-`src/setupTest.ts`, `src/mocks/server.ts`, `src/mocks/handler.ts` 파일 추가
+`src/setupTests.ts`, `src/mocks/server.ts`, `src/mocks/handler.ts` 파일 추가
 
 ### Jest 설정 변경
 
-`jest.config.js` 에 `setupFilesAfterEnv` 의 속성에 `setupTest.ts` 파일 추가
+`jest.config.js` 에 `setupFilesAfterEnv` 의 속성에 `setupTests.ts` 파일 추가
 
 ## React Router
 
@@ -293,7 +293,7 @@ npm i tsyringe reflect-metadata usestore-ts
 
 ### 의존성 세팅
 
-`src/main.tsx` 와 `src/setupTest.ts` 에 `reflect-metadata` import 해주기
+`src/main.tsx` 와 `src/setupTests.ts` 에 `reflect-metadata` import 해주기
 
 `tsconfig.json` 에 `experimentalDecorators` 와 `emitDecoratorMetadata` 속성 true 로
 변경
